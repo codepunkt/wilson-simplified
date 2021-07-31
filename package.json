@@ -1,0 +1,26 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@mapbox/hast-util-to-jsx": "^1.0.0",
+    "gray-matter": "^4.0.3",
+    "preact": "^10.5.13",
+    "preact-iso": "^2.0.3",
+    "rehype-raw": "^5.1.0",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.1.0",
+    "remark-stringify": "^9.0.1",
+    "sucrase": "^3.20.0",
+    "unified": "^10.1.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.0.0",
+    "vite": "^2.4.4"
+  }
+}
